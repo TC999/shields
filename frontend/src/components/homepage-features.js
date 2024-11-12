@@ -4,7 +4,7 @@ import styles from './homepage-features.module.css'
 
 const FeatureList = [
   {
-    title: 'Dynamic badges',
+    title: '动态徽章',
     description: (
       <>
         <img
@@ -12,16 +12,15 @@ const FeatureList = [
           src="https://img.shields.io/badge/build-passing-brightgreen"
         />
         <br />
-        Show metrics for your project. We've got badges for hundreds of
-        services.
+        显示您项目的指标。我们为数百种服务提供徽章。
       </>
     ),
   },
   {
-    title: 'Static Badges',
+    title: '状态徽章',
     description: (
       <>
-        Create a badge with
+        创建徽章使用
         <br />
         <img
           alt="any text you like"
@@ -31,16 +30,16 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Badge-Maker NPM library',
+    title: 'Badge-Maker NPM 库',
     description: (
       <>
-        Render badges in your own application using our{' '}
+        使用我们的{' '}
         <a
           href="https://www.npmjs.com/package/badge-maker"
           rel="noreferrer"
           target="_blank"
         >
-          NPM library
+          NPM 库
         </a>
         <br />
         <code>npm install badge-maker</code>
@@ -48,16 +47,16 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Host your own instance',
+    title: '托管自己的实例',
     description: (
       <>
-        Host a shields instance behind your firewall with our{' '}
+        使用我们的{' '}
         <a
           href="https://registry.hub.docker.com/r/shieldsio/shields/"
           rel="noreferrer"
           target="_blank"
         >
-          docker image
+          Docker 镜像
         </a>
         <br />
         <code>docker pull shieldsio/shields</code>
@@ -65,18 +64,18 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Love Shields?',
+    title: '喜欢 Shields?',
     description: (
       <>
-        Please consider{' '}
+        请考虑{' '}
         <a
           href="https://opencollective.com/shields"
           rel="noreferrer"
           target="_blank"
         >
-          donating
+          捐赠
         </a>{' '}
-        to sustain our activities
+        我们的活动
       </>
     ),
   },

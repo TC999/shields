@@ -1,25 +1,25 @@
-# Security Policy
+# 安全政策
 
-## Supported Projects
+## 支持的项目
 
-Please follow this guidance when reporting security issues affecting:
+在报告影响以下安全问题时，请遵循本指南：
 
-- [Shields.io](https://shields.io)
-- [Raster.shields.io](https://raster.shields.io)
-- Self-hosted Shields instances
-- The [squint](https://github.com/badges/squint) raster proxy
-- The [badge-maker](https://www.npmjs.com/package/badge-maker) NPM package
+- [Shields.io](https://shields.io) 
+- [Raster.shields.io](https://raster.shields.io) 
+- 自行托管的 Shields 实例
+- [squint](https://github.com/badges/squint) 光栅代理
+- [badge-maker](https://www.npmjs.com/package/badge-maker) NPM 包
 
-The [gh-badges](https://www.npmjs.com/package/gh-badges) and [svg-to-image-proxy](https://www.npmjs.com/package/svg-to-image-proxy) NPM packages are now deprecated and will no longer receive fixes for bugs or security issues.
+[gh-badges](https://www.npmjs.com/package/gh-badges) 和 [svg-to-image-proxy](https://www.npmjs.com/package/svg-to-image-proxy) NPM 包现已弃用，将不再接收针对错误或安全问题的修复。
 
-## Reporting a Vulnerability
+## 报告漏洞
 
-If you find a security vulnerability affecting any of our supported projects, please email [security@shields.io](mailto:security@shields.io), rather than opening a public issue on GitHub. After receiving the initial report, we will endeavor to keep you informed of the progress towards a fix and full announcement. We may ask you for additional information. You are also welcome to propose a patch or solution.
+如果您发现影响我们任何支持项目的安全隐患，请通过电子邮件发送至 [security@shields.io](mailto:security@shields.io)，而不是在 GitHub 上公开提出问题。在收到初步报告后，我们将努力让您了解修复进展和完整公告的情况。我们可能会要求您提供额外信息。您也可以提出补丁或解决方案。
 
-Report security bugs in third-party modules to the person or team maintaining the module.
+向维护第三方模块的个人或团队报告安全漏洞。
 
-## Coordinated Disclosure
+## 协调披露
 
-We aim to patch confirmed vulnerabilities within 90 days or less, disclosing the details of those vulnerabilities when a patch is published. We ask that you refrain from sharing your report with others while we work on our patch.
+我们的目标是在90天或更短时间内修补确认的漏洞，并在发布补丁时披露这些漏洞的细节。我们要求在修补过程中您不要与他人分享您的报告。
 
-We may want to coordinate an advisory with you to be published simultaneously with the patch, but you are also welcome to self-disclose after 90 days if you prefer. We will never publish information about you or our communications with you without your permission.
+我们可能希望与您协调，以便在发布补丁时同时发布公告，但如果您更倾向于在90天后自行披露，我们也欢迎您这样做。我们将永远不会在未经您许可的情况下发布有关您的信息或我们与您的通信内容。

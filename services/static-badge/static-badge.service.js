@@ -2,43 +2,43 @@ import { escapeFormat } from '../../core/badge-urls/path-helpers.js'
 import { BaseStaticService } from '../index.js'
 
 const description = `
-The static badge accepts a single required path parameter which encodes either:
+静态徽章接受一个必需的路径参数，该参数编码了以下内容：
 
 <ul>
   <li>
-    Label, message and color separated by a dash <code>-</code>. For example:<br />
-    <img alt="any text: you like" src="https://img.shields.io/badge/any_text-you_like-blue" /> -
-    https://img.shields.io/badge/any_text-you_like-blue
+    标签、信息和颜色用破折号 <code>-</code> 分隔。例如：<br />
+    <img alt="任何文本：你喜欢的" src="https://img.shields.io/badge/any_text-you_like-blue"  /> -
+    https://img.shields.io/badge/any_text-you_like-blue 
   </li>
   <li>
-    Message and color only, separated by a dash <code>-</code>. For example:<br />
-    <img alt="just the message" src="https://img.shields.io/badge/just%20the%20message-8A2BE2" /> -
-    https://img.shields.io/badge/just%20the%20message-8A2BE2
+    仅信息和颜色，用破折号 <code>-</code> 分隔。例如：<br />
+    <img alt="只有信息" src="https://img.shields.io/badge/just%20the%20message-8A2BE2"  /> -
+    https://img.shields.io/badge/just%20the%20message-8A2BE2 
   </li>
 </ul>
 
 <table>
   <tbody>
     <tr>
-      <th>URL input</th>
-      <th>Badge output</th>
+      <th>URL 输入</th>
+      <th>徽章输出</th>
     </tr>
     <tr>
-      <td>Underscore <code>_</code> or <code>%20</code></td>
-      <td>Space <code>&nbsp;</code></td>
+      <td>下划线 <code>_</code> 或 <code>%20</code></td>
+      <td>空格 <code>&nbsp;</code></td>
     </tr>
     <tr>
-      <td>Double underscore <code>__</code></td>
-      <td>Underscore <code>_</code></td>
+      <td>双下划线 <code>__</code></td>
+      <td>下划线 <code>_</code></td>
     </tr>
     <tr>
-      <td>Double dash <code>--</code></td>
-      <td>Dash <code>-</code></td>
+      <td>双破折号 <code>--</code></td>
+      <td>破折号 <code>-</code></td>
     </tr>
   </tbody>
 </table>
 
-Hex, rgb, rgba, hsl, hsla and css named colors may be used.
+可以使用十六进制、rgb、rgba、hsl、hsla 和 css 命名颜色。
 `
 
 export default class StaticBadge extends BaseStaticService {

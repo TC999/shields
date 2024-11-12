@@ -5,7 +5,7 @@ const stripCodeBlockLinks = require('./src/plugins/strip-code-block-links')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Shields.io',
-  tagline: 'Concise, consistent, and legible badges',
+  tagline: '简明、一致、清晰的徽章',
   url: 'https://shields.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -74,11 +74,11 @@ const config = {
           { to: '/badges', label: 'Badges', position: 'left' },
           {
             to: '/docs',
-            label: 'Documentation',
+            label: '文档',
             position: 'left',
           },
-          { to: '/community', label: 'Community', position: 'left' },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/community', label: '社区', position: 'left' },
+          { to: '/blog', label: '博客', position: 'left' },
           {
             href: 'https://github.com/badges/shields',
             label: 'GitHub',
@@ -90,7 +90,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
                 label: 'GitHub',
@@ -111,14 +111,14 @@ const config = {
             ],
           },
           {
-            title: 'Stats',
+            title: '状态',
             items: [
               {
-                label: 'Service Status',
+                label: '服务状态',
                 href: 'https://stats.uptimerobot.com/PjXogHB5p',
               },
               {
-                label: 'Metrics dashboard',
+                label: '指标仪表板',
                 href: 'https://metrics.shields.io/',
               },
             ],
