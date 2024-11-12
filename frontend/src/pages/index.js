@@ -15,7 +15,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/badges">
-            Get started
+            现在开始
           </Link>
         </div>
       </div>
@@ -27,7 +27,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      description="Concise, consistent, and legible badges"
+      description="简明、一致、清晰的徽章"
       title={siteConfig.title}
     >
       <HomepageHeader />
